@@ -11,7 +11,7 @@ environments {
         dataSource {
             pooled=true
             dbCreate='update'
-            url='jdbc:mysql://localhost/zeroddbname?useUnicode=yes&characterEncoding=UTF-8'
+            url='jdbc:mysql://127.0.0.1/zeroddbname?useUnicode=yes&characterEncoding=UTF-8'
             driverClassName='com.mysql.jdbc.Driver'
             dialect='org.hibernate.dialect.MySQL5InnoDBDialect'
             username='zerodusername'
@@ -32,7 +32,7 @@ environments {
         dataSource {
             pooled=true
             dbCreate='update'
-            url='jdbc:mysql://localhost/zeroddbname?useUnicode=yes&characterEncoding=UTF-8'
+            url='jdbc:mysql://127.0.0.1/zeroddbname?useUnicode=yes&characterEncoding=UTF-8'
             driverClassName='com.mysql.jdbc.Driver'
             dialect='org.hibernate.dialect.MySQL5InnoDBDialect'
             username='zerodusername'
