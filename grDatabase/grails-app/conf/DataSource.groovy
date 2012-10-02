@@ -24,8 +24,8 @@ environments {
             url = "jdbc:mysql://localhost/<dbname>?useUnicode=yes&characterEncoding=UTF-8"
             driverClassName = "com.mysql.jdbc.Driver"
             dialect = "org.hibernate.dialect.MySQL5InnoDBDialect"
-            username = "<username>"
-            password = "<password>"
+            username = "zerodusername"
+            password = "zerodpassword"
             properties {
                 maxActive = 5
                 maxIdle = 3
@@ -49,8 +49,8 @@ environments {
             url = "jdbc:mysql://localhost/<dbname>?useUnicode=yes&characterEncoding=UTF-8"
             driverClassName = "com.mysql.jdbc.Driver"
             dialect = "org.hibernate.dialect.MySQL5InnoDBDialect"
-            username = "<username>"
-            password = "<password>"
+            username = "zerodusername"
+            password = "zerodpassword"
             properties {
                 maxActive = 50
                 maxIdle = 25
