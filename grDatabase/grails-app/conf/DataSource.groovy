@@ -16,7 +16,7 @@ hibernate {
             dataSource {
                 pooled = true
                 dbCreate = "update"
-                url = "jdbc:mysql://localhost/zeroddbname?useUnicode=yes&characterEncoding=UTF-8"
+                url = "jdbc:mysql://localhost:3306/zeroddbname?useUnicode=yes&characterEncoding=UTF-8"
                 driverClassName = "com.mysql.jdbc.Driver"
                 dialect = "org.hibernate.dialect.MySQL5InnoDBDialect"
                 username = "zerodusername"
@@ -41,7 +41,7 @@ hibernate {
             dataSource {
                 pooled = true
                 dbCreate = "update"
-                url = "jdbc:mysql://localhost/zeroddbname?useUnicode=yes&characterEncoding=UTF-8"
+                url = "jdbc:mysql://localhost:3306/zeroddbname?useUnicode=yes&characterEncoding=UTF-8"
                 driverClassName = "com.mysql.jdbc.Driver"
                 dialect = "org.hibernate.dialect.MySQL5InnoDBDialect"
                 username = "zerodusername"
@@ -66,7 +66,7 @@ hibernate {
             dataSource {
                 pooled = true
                 dbCreate = "update"
-                url = "jdbc:mysql://localhost/zeroddbname?useUnicode=yes&characterEncoding=UTF-8"
+                url = "jdbc:mysql://localhost:3306/zeroddbname?useUnicode=yes&characterEncoding=UTF-8"
                 driverClassName = "com.mysql.jdbc.Driver"
                 dialect = "org.hibernate.dialect.MySQL5InnoDBDialect"
                 username = "zerodusername"
